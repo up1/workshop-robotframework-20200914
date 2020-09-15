@@ -1,5 +1,11 @@
 # Workshop
 
+## List of resources
+* [Robot framework User Guide](http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
+* [Build-in](http://robotframework.org/robotframework/latest/libraries/BuiltIn.html)
+* [String](http://robotframework.org/robotframework/latest/libraries/String.html)
+* [Selenium Library](https://github.com/robotframework/SeleniumLibrary/)
+
 ## Run with robot
 ```
 // Run with tag
