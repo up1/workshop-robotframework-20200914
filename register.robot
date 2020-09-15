@@ -1,6 +1,7 @@
 *** Settings ***
 Resource   pages/SignupPage.robot
 Resource   pages/ThankyouPage.robot
+Test Teardown    Close Browser
 
 *** Test cases ***
 Register success
@@ -20,3 +21,8 @@ Fill in data
     SignupPage.Fill in address   my address 
     SignupPage.Fill in zipcode   10400
 
+Submit register page
+    SignupPage.Submit
+
+Should show thank you page
+    ThankyouPage.Check success message
